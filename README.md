@@ -31,11 +31,11 @@ You can modify the dataset configuration in the configs folder to select differe
 
 datasets = 'isic18'  # You can change this to 'isic17' or another dataset as needed  
 if datasets == 'isic18':  
-      >> data_path = './data/isic2018/'  
+      &emsp; data_path = './data/isic2018/'  
 elif datasets == 'isic17':  
-      >> data_path = './data/isic2017/'  
+      &emsp; data_path = './data/isic2017/'  
 else:  
-      >> raise Exception('Dataset is not correctly specified!')  
+      &emsp; raise Exception('Dataset is not correctly specified!')  
 Ensure that the datasets variable is set correctly to load the appropriate dataset.
 
 ## Training and Validation
